@@ -1,6 +1,11 @@
 # Convert Carto3D Mesh to STL and WRL
 
-This repository hosts a Python tool designed for converting Carto3D mesh files into STL and WRL formats, suitable for 3D printing and colour map visualization. The tool focuses on processing 3D mesh data, efficiently filtering out unwanted sectors based on predefined criteria, and preparing the data for further use.
+This repository hosts a Python tool is designed for converting Carto3D mesh files into STL and WRL formats, suitable for 3D printing and colour map visualization. The tool focuses on processing 3D mesh data, efficiently filtering out sectors, and preparing the data for further use.
+
+
+![Example VRML](/images/snapshotWRL.png)
+![Example STL](/images/snapshotSTL.png)
+
 
 ## Features
 
@@ -8,6 +13,7 @@ This repository hosts a Python tool designed for converting Carto3D mesh files i
 - **Sector Exclusion**: Filters out triangles marked with specific `GroupID`s.
 - **VRML and STL Generation**: Creates VRML (.wrl) files for visualization and STL files for 3D printing, excluding the specified sectors.
 - **Timestamped Outputs**: Names the output files with timestamps to facilitate organization.
+
 
 ## Getting Started
 
