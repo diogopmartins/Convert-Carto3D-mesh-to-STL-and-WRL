@@ -5,9 +5,9 @@ This repository hosts a Python tool designed for converting Carto3D mesh files i
 ## Features
 
 - **Parsing Carto3D Mesh Files**: Extracts essential mesh data for conversion.
-- **Sector Exclusion**: Filters out triangles marked with specific `GroupID`s, especially those meant to be excluded from the output.
+- **Sector Exclusion**: Filters out triangles marked with specific `GroupID`s.
 - **VRML and STL Generation**: Creates VRML (.wrl) files for visualization and STL files for 3D printing, excluding the specified sectors.
-- **Timestamped Outputs**: Names the output files with timestamps to facilitate version control and organization.
+- **Timestamped Outputs**: Names the output files with timestamps to facilitate organization.
 
 ## Getting Started
 
